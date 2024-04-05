@@ -1,0 +1,243 @@
+
+  
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+      
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+      
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+      
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+      
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+      
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+      
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+      
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+      
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+      
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+      
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+      
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+      
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+      
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+      
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+      
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+      
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+      
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+      
+
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: o auto;
+}
+
+/* ESTILO CABEÇARIO */
+header{
+    padding: 25px;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #e4c620;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+    font-weight: 700;
+    font-size: 20px;
+}
+header a:hover{
+    color: #f3e357;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+
+
+
+header .btn-login button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #e92d2d;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    left: 900px;
+}
+header .btn-login button:hover{
+    box-shadow: 0px 0px 8px #da7171;
+}
+.logo img {
+    max-width:250px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.livros {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 1px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  background-color: #000000;
+  padding: 15px;
+  border: 1px solid #FF0000;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  animation: scroll 10s linear infinite; 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1em;
+}
+
+
+
+
+.dastaque {
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
+  background-color: #f0f0f0;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+h1 {
+  font-size: 3em;
+  color: #FF0000; 
+  text-shadow: 2px 2px 4px #690000;
+  position: relative;
+  top: 170px;
+  left: -400px;
+
+}
+
+
+
+
+
