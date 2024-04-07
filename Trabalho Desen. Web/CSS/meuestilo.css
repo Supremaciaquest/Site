@@ -143,16 +143,16 @@ header{
   position: relative; 
 }
 a{
-    color: #e4da20;
+    color: #e8e052;
     text-decoration: none;
-    transition: 0.5s;
+    transition: 0.3s;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 23px;
     
 }
 
 header a:hover{
-    color: #f3e357;
+    color: #f9f9b5;
     transform: scale(1.05);
 }
 
@@ -170,10 +170,10 @@ header nav ul li{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #e92d2d;
+    background-color: #ef4545;
     border-radius: 30px;
     cursor: pointer;
-    margin-left: 1080px;
+    margin-left: 900px;
     margin-top: 30px;
 }
 .btn-login button:hover{
@@ -184,6 +184,7 @@ header nav ul li{
     max-height:250px;
     width: auto;
     height: auto;
+    margin-left: 30px;
     
 }
 
@@ -218,11 +219,6 @@ img {
   height: auto;
 }
 
-
-
-
-
-
 .dastaque {
   flex: 0 0 auto;
   width: 200px;
@@ -241,8 +237,8 @@ h1 {
   color: #FF0000; 
   text-shadow: 2px 2px 4px #690000;
   position: relative;
-  top: 170px;
-  right: 900px;
+  top: 180px;
+  right: 700px;
   text-align: center;
   
 }
