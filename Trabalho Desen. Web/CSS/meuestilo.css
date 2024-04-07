@@ -124,22 +124,33 @@ body{
 /* ESTILO CABEÇARIO */
 header{
     padding: 25px;
-}
+  }
 
-header > .interface{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.interface{
+  display:flex;
+    
 }
+.menu-desktop{
+  position: absolute;
+  left: 300px;
+  margin: 0;
+  display: inline-block;
 
-header a{
-    color: #e4c620;
+}
+.menu-desktop li{
+  display: inline-block;
+  margin-left: 25px;
+  position: relative; 
+}
+a{
+    color: #e4da20;
     text-decoration: none;
-    display: inline-block;
     transition: 0.5s;
     font-weight: 700;
     font-size: 20px;
+    
 }
+
 header a:hover{
     color: #f3e357;
     transform: scale(1.05);
@@ -147,25 +158,25 @@ header a:hover{
 
 header nav ul{
     list-style-type: none;
+    
 }
 header nav ul li{
-    display: inline-block;
     padding: 25px;
+    
+
 }
 
-
-
-header .btn-login button{
+.btn-login button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
     background-color: #e92d2d;
-    border: 0;
     border-radius: 30px;
     cursor: pointer;
-    left: 900px;
+    margin-left: 1080px;
+    margin-top: 30px;
 }
-header .btn-login button:hover{
+.btn-login button:hover{
     box-shadow: 0px 0px 8px #da7171;
 }
 .logo img {
@@ -173,6 +184,7 @@ header .btn-login button:hover{
     max-height:250px;
     width: auto;
     height: auto;
+    
 }
 
 .livros {
@@ -206,10 +218,7 @@ img {
   height: auto;
 }
 
-h1 {
-  text-align: center;
-  font-size: 1em;
-}
+
 
 
 
@@ -228,13 +237,14 @@ h1 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.8em;
   color: #FF0000; 
   text-shadow: 2px 2px 4px #690000;
   position: relative;
   top: 170px;
-  left: -400px;
-
+  right: 900px;
+  text-align: center;
+  
 }
 
 

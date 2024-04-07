@@ -15,6 +15,8 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 500px;
+  position: relative;
 }
 
 .form-login input[type="text"],
@@ -54,4 +56,15 @@ body {
 
 .register-link a:hover {
   text-decoration: underline;
+}
+
+section{
+ text-align: center;
+ margin-top: 30%;
+ position: absolute;
+ 
+}
+section a{
+  color: aliceblue;
+  font-size: 1rem;
 }
